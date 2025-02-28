@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: work sans;
+    src: url(../WorkSans-Italic-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: rgb(107, 245, 255);
+    font-family: work sans, sans-serif;
+    background-image: linear-gradient(to right, #0ef, rgb(28, 240, 255), rgb(65, 231, 243), rgb(115, 239, 248));
+}
+
+h1{
+    color: #053f3f;
+}
+
+h1#principal{
+    text-align: center;
+    color: white;
+}
+
+#paragrafo{
+    text-align: justify;
+}
+
+.basico{
+    color: rgb(0, 102, 0);
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgb(164, 175, 10);
+}
+
+.avancado{
+    color: #6d0707;
+}
+
+.titulo{
+    color: #6200d1;
+}
+
+h2{
+    color: #015a5a;
+}

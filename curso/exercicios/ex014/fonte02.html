@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'work sans';
+            src: url('fonte/WorkSans-Italic-VariableFont_wght.ttf') format(opentype), url('fonte/WorkSans-VariableFont_wght.ttf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        body{
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'work sans', Georgia, Times, 'Times New Roman', serif;
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga nemo dignissimos eum vel suscipit eius mollitia repellat reiciendis incidunt error ea cumque sapiente voluptas aliquam consectetur veniam, at qui!</p>
+</body>
+</html>

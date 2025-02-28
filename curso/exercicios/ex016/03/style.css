@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: work sans;
+    src: url(../WorkSans-Italic-VariableFont_wght.ttf) format(truetype);
+}
+
+h1{
+    font-family: work sans, sans-serif;
+    border: 10px solid black;
+    padding: 10px;
+    border-image-source: url('../bordas.png');
+    border-image-slice: 10;
+    border-image-repeat: repeat;
+
+}

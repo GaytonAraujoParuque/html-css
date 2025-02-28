@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+h1{
+
+    display: block;
+    border-radius: 10px;
+    background-color: azure;
+    border-width: 20px;
+    height: 300px;
+    width: 300px;
+
+    border: 10px ridge darkgoldenrod;
+    padding: 5px;
+
+    margin: 30px 10px 30px 10px;
+
+    outline: 10px dashed blue;
+}
+
+h1:hover{
+    background-color: rgb(244, 220, 250);
+    border-color: rgb(244, 220, 250);
+    outline-color:rgb(244, 240, 250);
+    color: chocolate;
+}
+
+a{
+    border: 10px;
+    border-style: double;
+    border-color: red;
+}

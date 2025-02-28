@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOVER</title>
+    <link rel="shortcut icon" href="../cursoemvideo.jpg" type="image/x-icon">
+    <style>
+        div:hover{
+            color: red;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: black;
+            font-size: 40px;
+            }
+    </style>
+</head>
+<body>
+    Exemplo do hovver
+    <p>Passe o moue sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>

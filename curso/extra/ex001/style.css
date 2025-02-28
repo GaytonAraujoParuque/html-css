@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+     background-color: aquamarine;
+}
+
+:root{
+    --cor: red;
+}
+nav{
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav > a:hover{
+    border-bottom: 5px solid var(--cor) ;
+    transform-style: inherit;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 50px 5px 0px;
+    position: relative;
+}
+
+nav  a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+nav a:hover ::after{
+    width: 100%;
+}

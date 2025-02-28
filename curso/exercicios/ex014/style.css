@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font-family:  'work sans', Tahoma, sans-serif;
+
+    /*
+    Medidas absolutas:
+    cm, mm, in(polegada), px, pt(ponto), pc(paica)
+    
+    Medidas relativas:
+    em(tamanho atual da fonte), ex(altura x de uma fonte)
+    */
+    /*16px == 1em*/
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+h1{
+    /*font-family: 'work sans', 'Times New Roman';
+    font-weight:bolder;
+    font-size:3em;
+    font-style: italic;*/
+
+    /*Shorthand*/
+    font: italic bold 3em 'Times New Roman';
+}
+
+h2{
+    font: bold 2em Arial;
+}

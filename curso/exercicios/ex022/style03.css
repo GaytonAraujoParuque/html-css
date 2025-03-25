@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div.bloco{
+    background-image: url("imagens/IMG-20241008-WA0007.jpg");
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#q1{
+    background-position: left top;
+}
+
+#q2{
+    background-position: left center;
+}
+
+#q3{
+    background-position: right bottom;
+}
+
+#q4{
+    background-position: center top;
+}

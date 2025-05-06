@@ -1,11 +1,9 @@
 @charset "UTF-8";
 
 body{
-    background-color: black;
-    background-image: url("imagens/cev-landscape.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 1000hv;
+
+    background: black url('imagens/cev-portrait.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 main{
@@ -16,6 +14,6 @@ main{
     border: 2px solid black;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    
+
 }
 
